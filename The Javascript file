@@ -1,0 +1,263 @@
+<script>
+   
+var Names = [
+    "Your turn:Victoria",
+    "Your turn:Katy",
+    "Your turn:Nat", 
+    "Your turn:Hannah",
+    "Your turn:Aaron",    
+    "Your turn:Shauna",
+    "Your turn:Anita",
+    "Your turn:James",
+    "Your turn:Anita",
+    "Your turn:Morgan",
+    "Your turn:Simeon",
+    "Your turn:Evan",
+    "Your turn:Harry",
+    "Your turn:Christine", 
+    "Your turn:Harry",
+    "Your turn:Matthew",
+    "Your turn:Katy",
+    "Your turn:Nat", 
+    "Your turn:Hannah",
+    "Your turn:Aaron",    
+    "Your turn:Shauna",
+    "Your turn:Anita",
+    "Your turn:James",
+    "Your turn:Anita",
+    "Your turn:Simeon",
+    "Your turn:Christine", 
+    "Your turn:Matthew",
+    "Your turn:Katy",
+    "Your turn:Nat", 
+    "Your turn:Hannah",
+    "Your turn:Aaron",
+    "Your turn:Katy",
+    "Your turn:Aaron",
+    "Your turn:Katy",
+    "Your turn:Aaron",    
+    "Your turn:Shauna",
+    "Your turn:Anita",
+    "Your turn:James",
+    "Your turn:Anita",
+    "Your turn:Morgan",
+    "Your turn:Simeon",
+    "Your turn:Evan",
+    "Your turn:Harry",
+    "Your turn:Christine", 
+    "Your turn:Harry",
+    "Your turn:Matthew",
+    "Your turn:Katy",
+    "Your turn:Nat", 
+    "Your turn:Hannah",
+    "Your turn:Aaron",    
+    "Your turn:Shauna",
+    "Your turn:Anita",
+    "Your turn:James",
+    "Your turn:Anita",
+    "Your turn:Simeon",
+    "Your turn:Christine", 
+    "Your turn:Matthew",];
+    
+var Questions1 = [
+        "Are your farts silent but deadly or loud and proud?",
+        "Describe you most disappointing sexual partner (no names)",
+        "What is your biggest fear?",
+        "Can you talk dirty?",
+        "Do you like your partner to be tall or short?",
+        "What is the oldest you would consider dating?",
+        "Do you have condoms with you?",
+        "Have you ever been kicked out of a bar? explain?",
+        "Have you ever blamed someone else for a fart?",
+        "What is your favourite build for your partner to have? (thin,muscular,average,chubby,large)", ];
+
+    var Questions2 = [
+        
+        "Have you ever gotten frisky in the cinema?",
+        "Have you ever gone on a pity date?",
+        "Have you ever kissed someone of the same sex?",
+        "If you were the opposite sex for the day what would you do?",
+        "Have you ever had a crush on a friends partner",
+        "Have you ever sexted?",
+        "Who here (excluding partners) is the hottest?",
+        "Have you ever streaked", ];
+
+    var Questions3 = [
+        "Is there anyone here you have ever disliked? why?",
+        "Have you ever thrown up on yourself", 
+        "Have you ever wet yourself as an adult? why?",
+        "Would you rather spend a night spooning the person to your right or have them slap you in the face?",
+        "Have you ever taken drugs? which one?",
+        "Have you ever lied to get out of sex or to get some?",
+        "You have to change something about yourself what is it?",
+        "Have you ever been arrested? what for?", ];
+
+    var Questions4 = [
+        "If you could have a night with any celebrity who would it be?",
+        "What is the naughtiest thing you have ever done?",
+        "Girls have you ever masturbated? Guys when was the last time you did?",
+        "What is everyone's best body part?",
+        "Would you rather receive anal or swallow sperm?",
+        "Have you ever had a crush on a close friend (name them)",
+        "Have you ever made up believed a rumour about someone in the room what was it?",
+        "Who here (excluding partners) is the hottest?",
+        "Have you ever streaked", ];
+
+    var Questions5 = [
+        "What is the stupidest thing you have ever done?",
+        "Would you ever have a 3sum?",       
+        "Have you ever cheated?",
+        "what is the grossest thing you have ever done?",
+        "Have you ever had a crush on a friends partner?",
+        "Guys which of your ex's gave he best head girls who had the biggest package?",
+        "Who here of the opposite sex would you sleep with if you had to pick one?",
+        "which of your ex's were the best in bed?", ];
+
+    var Dares1 = [
+        "Suck the person to your lefts big toe",
+        "Lick behind the person to your rights ear",
+        "Remove 1 piece of clothing both socks = 1",
+        "Finish your drink",
+        "15 push ups if you fail finish your drink",
+        "Let the person to your right draw something on your face",
+        "Kiss the person opposite you on the neck",
+        "Imitate another player (everyone else guess who?)",
+        "Do a body shot off the person 3 places to your right",
+        "show everyone your favourite  sexual position", ];
+
+    var Dares2 = [
+        "Let someone in the group message someone on your facebook and flirt with them for them until your next round",
+        "pick your nose with a piece of food then eat it",
+        "Tell something",
+        "Finish your drink",
+        "25 push ups if you fail finish your drink",
+        "Let the person to your right draw something on your face",
+        "Kiss the person opposite you on the neck",
+        "Imitate another player (everyone else guess who?)",
+        "Do a body shot off the person 3 places to your right",
+        "show everyone your favourite  sexual position", ];
+
+    var Dares3 = [
+        "Dance for 30 seconds",
+        "Lick behind the person to your rights face (chin to forhead)",
+        "Remove 1 piece of clothing both socks = 1",
+        "Finish your drink and the person to your left's",
+        "35 push ups if you fail finish your drink",
+        "Sit on the closest person of the opposite sexes lap(not partner's)",
+        "Attempt to do the split's",
+        "Imitate another player (everyone else guess who?)",
+        "Do a body shot off the person 3 places to your right",
+        "show everyone your least favourite  sexual position", ];
+
+    var Dares4 = [        
+        "put on a blindfold and slowdance witha player",
+        "become a slave to the player on your right for 2 rounds",
+        "Remove 2 piece's of clothing both socks = 1",
+        "Put on a blindfold and geuss who the player is by touch if you fail finish your drink",
+        "40 push ups if you fail finish your drink",
+        "Do a shot from a randomly selected player's belly button",
+        "Kiss the person opposite you on the inner thigh",
+        "30 second strip tease",
+        "put on the person to your left's bra", 
+        "Give a banana a blow job",
+        "Pull your best orgasm face",
+        "Give the player to your left a foot massage",];
+    
+
+    var Dares5 = [
+        "You choose finish a drink of the groups choosing or lose a piece of clothing of there choice.",
+        "The person opposite you gets to draw something on you their choice what and where.",
+        "spend 2 minutes in another room with the person to your left",
+        "put an ice cube in your underwear (bra's count)",
+        "Go into a room with the person opposite you and flash them",
+        "50 push-ups in a row if you fail the person to your Right gets to give you a love bite on the hip",
+        "Put your hands in another players pocket for 2 round's (opposite sex)",
+        "The person opposite you gets to slap you in the face flinch and its 2 ",
+        "Expose your butt and close your eyes (1 slap from each person)",
+        "Finish your drink and the drinks of the people either side of you",
+        "In your underwear until you have had 2 more turns",
+        "Brush your teeth with vodka",
+        "Drink a glass of 1/3 coffee 1/3 sugar 1/3 salt"];
+  
+
+
+    function myFunctionTruth1() {
+        var x = document.getElementById("TruthorDare");
+        var y = Math.floor((Math.random() * 9) + 0);
+        x.innerHTML = Questions1[y];
+    }
+
+    function myFunctionTruth2() {
+        var x = document.getElementById("TruthorDare");
+        var y = Math.floor((Math.random() * 7) + 0);
+        x.innerHTML = Questions2[y];
+    }
+
+    function myFunctionTruth3() {
+        var x = document.getElementById("TruthorDare");
+        var y = Math.floor((Math.random() * 7) + 0);
+        x.innerHTML = Questions3[y];
+    }
+
+    function myFunctionTruth4() {
+        var x = document.getElementById("TruthorDare");
+        var y = Math.floor((Math.random() * 7) + 0);
+        x.innerHTML = Questions4[y];
+    }
+
+    function myFunctionTruth5() {
+        var x = document.getElementById("TruthorDare");
+        var y = Math.floor((Math.random() * 7) + 0);
+        x.innerHTML = Questions5[y];
+    }
+
+    function myFunctionDare1() {
+        var x = document.getElementById("TruthorDare");
+        var y = Math.floor((Math.random() * 10) + 0);
+        x.innerHTML = Dares1[y];
+
+    }
+
+    function myFunctionDare2() {
+        var x = document.getElementById("TruthorDare");
+        var y = Math.floor((Math.random() * 10) + 0);
+        x.innerHTML = Dares2[y];
+
+    }
+
+    function myFunctionDare3() {
+        var x = document.getElementById("TruthorDare");
+        var y = Math.floor((Math.random() * 9) + 0);
+        x.innerHTML = Dares3[y];
+
+    }
+
+    function myFunctionDare4() {
+        var x = document.getElementById("TruthorDare");
+        var y = Math.floor((Math.random() * 11) + 0);
+        x.innerHTML = Dares4[y];
+
+    }
+
+    function myFunctionDare5() {
+        var x = document.getElementById("TruthorDare");
+        var y = Math.floor((Math.random() * 13) + 0);
+        x.innerHTML = Dares5[y];
+
+    }
+        function myFunctionNames() {
+        var x = document.getElementById("TruthorDare1");
+        var y = Math.floor((Math.random() * 37) + 0);
+        x.innerHTML = Names[y];
+
+    }
+   
+
+    
+     
+    
+    
+    
+    $('body').height(document.documentElement.clientHeight);
+    new WOW().init();
+</script>
